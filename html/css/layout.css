@@ -1,17 +1,26 @@
 * {
+    margin: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .layout {
     display: grid;
-    grid-template-columns: 275px auto 350px;
-    margin: 0 auto;
+    grid-template-columns: 270px auto 350px;
+    grid-template-rows: 100vh;
 }
 
-.layout__right-sidebar {
+.left-sidebar {
+    height: 100%;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 8px;
 }
 
-.layout__left-sidebar {
-    position: fixed;
-}
+

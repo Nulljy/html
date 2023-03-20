@@ -1,22 +1,23 @@
-
-.sidebar-brand {
-    padding: 0 41px 0 12px;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    border-radius: 30px;
-    width: 50px;
-    height: 50px;
+.left-sidebar__top > .brand-container {
+    padding: 2px 0;
 }
 
-.sidebar-brand:hover {
-    background-color: rgb(29, 155, 240, 0.15);
+.left-sidebar__top > .brand-container > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.left-sidebar__top > .brand-container > a:hover {
     cursor: pointer;
+    background-color: rgba(29, 155, 240, 0.3);
 }
 
 .brand {
-    filter: invert(48%) sepia(38%) saturate(3397%) hue-rotate(180deg) brightness(100%) contrast(89%);
-    height: 28px;
+    /* position: absolute; */
+    height: 23px;
+    object-fit: cover;
 }
-
-

@@ -1,0 +1,31 @@
+.item-link {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 2px 0;
+}
+
+.item-link.item-link--active {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+.item:hover {
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.item-img {
+    height: 26px;
+}
+
+.item__spanbox {
+    margin: 0 20px 0 16px;
+}

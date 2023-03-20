@@ -1,0 +1,24 @@
+.tweet-link {
+    display: block;
+    padding: 0 32px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 40px;
+}
+
+.tweet-link:hover {
+    background-color: rgb(27, 129, 197);
+}
+
+.tweet-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 50px;
+}
+
+.tweet-btn > span {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
